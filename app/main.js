@@ -27,7 +27,7 @@ for (i = 1; i <= nbrOfNotes; i++) {
   // Load images
   for (j = 0; j < nbrOfSprites; j++) {
     animations[i].push(
-      PIXI.Texture.fromImage(`/son_0${i}/son_0${i}_000${j}.png`)
+      PIXI.Texture.fromImage(`imgs/son_0${i}/son_0${i}_000${j}.png`)
     );
   }
 
